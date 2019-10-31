@@ -1,0 +1,126 @@
+*{
+    margin:0px auto;
+    padding:0px;
+    /* outline: 2px solid black; */
+}
+
+.container-fluid{
+    padding: 10px;
+    /* background-color:antiquewhite; */
+    
+
+}
+.header{
+    margin-top:10px;
+    padding:45px;
+    background-color:white;
+    height:175px;
+    width:auto;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    
+    position: relative;
+}
+#image{
+    margin-top:13px;
+    width:350px;
+    height:150px;
+    margin-left:400px;
+    position: absolute;
+    top:0px;
+    right:200px;
+}
+.navbar{
+    background-color:#fd13e0;
+    margin: auto;
+    width:auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-link{
+   color:black;
+   font-size: 17px;
+   font-weight: bold;
+}
+#image3{
+    /* margin-right: 4px; */
+}
+
+#image4{
+    /* margin-left: 4px; */
+}
+.picture-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.picture-container > img {
+    width: 100%;   
+    height:auto; 
+}
+
+.cta {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    background-color:pink;
+}
+
+/* .container {
+    max-width: 1140px;
+} */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: .5rem;
+    background-color: rgba(255,255,255,.85);
+}
+.text-center {
+    text-align: center!important;
+}
+.rounded {
+    border-radius: .25rem!important;
+}
+.cta .cta-inner:before {
+    border-radius: .5rem;
+    content: '';
+    position: absolute;
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    border: .25rem solid rgba(255,255,255,.85);
+}
+.section-heading {
+    text-transform: uppercase;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway;
+}
+.section-heading .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.section-heading {
+    text-transform: uppercase;
+}
+
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+p {
+    line-height: 1.75;
+}
